@@ -26,6 +26,7 @@ DERP_BUILDTYPE := Official
 USE_LEGACY_BOOTANIMATION := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_USES_MINI_GAPPS := true
 
 # Inherit from river device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
